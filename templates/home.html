@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block head %}
+<title>URL Shortener</title>
+{% endblock head %} {% block body %}
+<div class="content">
+  <h1 style="text-align: center">URL Shortener</h1>
+  <h2><a href={{submitted_url}} target='_blank'>{{submitted_url}}</a></h2>
+  <h3><a href={{full_short_url}} target='_blank'>{{full_short_url}}</a></h3>
+  
+  <form action="/" method="POST">
+    <input type="url" name="url" id="url" />
+    <button type="submit">Shorten URL</button>
+  </form>
+</div>
+{% endblock body %}
