@@ -1,0 +1,10 @@
+{
+  "short_name": "Short URL",
+  "name": "Short URL - Chrome Extension",
+  "description": "Shorten any URL!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
