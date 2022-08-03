@@ -24,7 +24,10 @@
 - Allow the developer mode with the switch on the top right corner.
 - Click on the "Load Unpacked" option on the developer bar (top left corner).
 - On the popup, navigate to the folder ".\Short-Ext\dist" of the project and click on "Select Folder".
-- The extension will become accesible in the extensions menu of the browser.
+
+## Usage
+
+- Once installed, the extension will become accesible in the extensions menu of the browser.
 * Note: The Flask API must be running on "http://127.0.0.1:5000" for the extension to work
 
 
